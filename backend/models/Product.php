@@ -16,7 +16,7 @@ use Yii;
  */
 class Product extends \yii\db\ActiveRecord
 {
-    const FALL_TIME = '+1 minutes';
+    const FALL_TIME = '+5 hours';
     const MAX_APPLE_COUNT = 50;
     const MIN_APPLE_COUNT = 5;
     const STATUS_NEW = 1;
