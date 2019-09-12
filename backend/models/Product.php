@@ -42,7 +42,8 @@ class Product extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['eating_percent'], 'integer'],
+            [['eating_percent'], 'integer', 'max' => 100],
+
         ];
     }
 
